@@ -1,0 +1,45 @@
+@use '../base/colores' as c;
+@use '../base/fuentes' as f;
+@use '../base/mixins' as m;
+@use '../base/espaciados' as e;
+
+//redes sociales
+aside {
+    @include m.estilo-container;
+    display: flex;
+}
+
+//cajas redes sociales e imagenes
+.img-logo{
+    width: 10rem;
+  }
+
+.facebook-box {
+    @include m.social-box(facebook);
+    padding: e.$padding-box;
+}
+
+.linkedin-box {
+    @include m.social-box(linkedin);
+    padding: e.$padding-box;
+}
+
+.instagram-box {
+    @include m.social-box(instagram);
+    padding: e.$padding-box;
+}
+
+.youtube-box {
+    @include m.social-box(youtube);
+    padding: e.$padding-box;
+}
+
+.twitter-box {
+    @include m.social-box(twitter);
+    padding: e.$padding-box;
+}
+
+.pinterest-box {
+    @include m.social-box(pinterest);
+    padding: e.$padding-box;
+}

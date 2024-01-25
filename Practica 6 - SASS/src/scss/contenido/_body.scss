@@ -1,0 +1,87 @@
+@use '../base/colores' as c;
+@use '../base/fuentes' as f;
+@use '../base/mixins' as m;
+@use '../base/espaciados' as e;
+
+
+html{ 
+    padding:0rem;
+}
+
+
+body {
+    font: {
+        family: f.$fuente-principal;
+    }
+    #principal{
+        margin: 0rem;
+        padding: 0rem;
+    }
+}
+
+h3{
+    font: {
+        size: 2rem;
+        weight: bold;
+    }
+}
+
+h4{
+    font: {
+        size: 1rem;
+        weight: bold;
+    }
+}
+
+.box{
+    height: 3rem;
+    width: 100%;
+}
+
+.end{
+    text-align: end;
+}
+
+.titulos{
+    font-weight: bold;
+}
+
+#caja-1{
+    background-color: c.$color-firebrick;
+}
+
+#caja-2{
+    background-color: c.$color-darkseagreen;
+}
+
+#caja-3{
+    background-color: c.$color-royalblue;
+  
+}
+
+#caja-4{
+    background-color: c.$color-mediumpurple; 
+}
+
+#gradient-1{
+    @include m.gradiente-dinamico(c.$color-firebrick);
+}
+
+#gradient-2{
+    @include m.gradiente-dinamico(c.$color-darkseagreen);
+}
+
+#gradient-3{
+    @include m.gradiente-dinamico(c.$color-royalblue);
+}
+
+#gradient-4{
+    @include m.gradiente-dinamico(c.$color-mediumpurple);
+}
+
+.main{
+    margin:0;
+}
+
+
+

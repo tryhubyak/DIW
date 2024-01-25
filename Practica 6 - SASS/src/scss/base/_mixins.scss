@@ -1,0 +1,75 @@
+@use '../base/colores' as c;
+
+@mixin contenedoresImagenes {
+    .cabecera {
+        img {
+            width: 10rem;
+            height: 7rem;
+        }
+    }
+}
+
+@mixin flex-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDE1EB;
+    padding: 1rem;
+}
+
+@mixin encabezados($tamano) {
+    h1 {
+        font-size: $tamano -10;
+    }
+    h2 {
+        font-size: $tamano;
+    }
+}
+
+@mixin nav-hover {
+    background-color: white;
+    color: #CD669A;
+    font-weight: bold;
+}
+
+@mixin estilo-container {
+    padding: 2rem;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+@mixin social-box($social-network) {
+    background-color: null;
+
+    @if $social-network ==facebook {
+        background-color: c.$color-facebook;
+    }
+
+    @else if $social-network ==twitter {
+        background-color: c.$color-twitter;
+    }
+
+    @else if $social-network ==instagram {
+        background-color: c.$color-instagram;
+    }
+
+    @else if $social-network ==linkedin {
+        background-color: c.$color-linkedin;
+    }
+
+    @else if $social-network ==youtube {
+        background-color: c.$color-youtube;
+    }
+
+    @else if $social-network ==pinterest {
+        background-color: c.$color-pinterest;
+    }
+
+    @else {
+        @error "Red social no válida: #{$social-network}";
+    }
+}
+
+@mixin gradiente-dinamico($color) {
+    $gradiente: linear-gradient(to right, lighten($color, 20%) 0, $color 66.66%, darken($color, 20%) 100%);
+    background: $gradiente;
+}

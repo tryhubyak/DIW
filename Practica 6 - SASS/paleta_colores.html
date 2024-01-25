@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica6_SASS</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css" />
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+    <div class="container-100" id="principal">
+        <div class="row cabecera">
+            <div class="col-12 col-md-5 col-lg-3">
+                <img src="./img/sass-1-logo.png" alt="sass-logo">
+            </div>
+            <div class="col-12 col-md-7 col-lg-9">
+                <h1 class="titulo">
+                    Práctica 6
+                </h1>
+                <h2 class="sub-titulo">
+                    Diseño de Interfaces web - Preprocesador CSS: SASS
+                </h2>
+            </div>
+        </div>
+        <div class="container-100 row">
+            <nav class="nav-bar justify-content-evenly">
+                <a href="index.html" class="col col-md-3">Index</a>
+                <a href="redes_sociales.html" class="col col-md-3">Redes Sociales</a>
+                <a href="paleta_colores.html" class="col col-md-3">Paleta de Colores</a>
+            </nav>
+        </div>
+        <div class="row justify-content-between m-3">
+            <h3>Colores principales</h3>
+            <h5>Estos son los colores principales de nuestro sitio web.</h5>
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row justify-content-between">
+                    <div class="box col-12 col-md-12 col-lg-12" id=caja-1></div>
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-7 titulos">
+                            <p>Nombre: </p>
+                            <p>Color Hex: </p>
+                            <p>Color RGB: </p>
+                            <p>Color HSL: </p>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-5 text-end">
+                            <p>firebrick</p>
+                            <p>#B22222</p>
+                            <p>rgb(178,34,34)</p>
+                            <p>Odeg/67%/41%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row justify-content-between">
+                    <div class="box col-12 col-md-12 col-lg-12" id="caja-2"></div>
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-7 titulos">
+                            <p>Nombre: </p>
+                            <p>Color Hex: </p>
+                            <p>Color RGB: </p>
+                            <p>Color HSL: </p>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-5 text-end">
+                            <p>darkseagreen</p>
+                            <p>#8FBC8F</p>
+                            <p>rgb(143,188,143)</p>
+                            <p>120deg/25%/64%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row justify-content-between">
+                    <div class="box col-12 col-md-12 col-lg-12" id="caja-3"></div>
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-7 titulos">
+                            <p>Nombre: </p>
+                            <p>Color Hex: </p>
+                            <p>Color RGB: </p>
+                            <p>Color HSL: </p>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-5 text-end">
+                            <p>royalblue</p>
+                            <p>#4169E1</p>
+                            <p>rgb(65,105,225)</p>
+                            <p>225deg/72%/56%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row justify-content-between">
+                    <div class="box col-12 col-md-12 col-lg-12" id="caja-4"></div>
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-7 titulos">
+                            <p>Nombre: </p>
+                            <p>Color Hex: </p>
+                            <p>Color RGB: </p>
+                            <p>Color HSL: </p>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-5 text-end">
+                            <p>mediumpurple</p>
+                            <p>#9370DB</p>
+                            <p>rgb(147,112,219)</p>
+                            <p>259deg/59%/64%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-between m-3">
+            <h3>Tonalidades</h3>
+            <h5>Estos colores son variaciones de tonalidad de nuestros colores primarios (25% más claro, normal y 75% más
+                oscuro), útiles para <i>hovers</i>, ilustraciones o pequeñas variaciones.</h5>
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row">
+                    <h8 class="col-12 col-md-12 col-lg-12">firebrick</h8>
+                </div>
+                <div class="row">
+                    <div class="box col-12 col-md-12 col-lg-12" id="gradient-1"></div>
+                </div>
+            </div>
+ 
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row">
+                    <h8 class="col-12 col-md-12 col-lg-12">dark sea green</h8>
+                </div>
+                <div class="row">
+                    <div class="box col-12 col-md-12 col-lg-12" id="gradient-2"></div>
+                </div>
+            </div>
+        
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row">
+                    <h8 class="col-12 col-md-12 col-lg-12">royal purple</h8>
+                </div>
+                <div class="row">
+                    <div class="box col-12 col-md-12 col-lg-12" id="gradient-3"></div>
+                </div>
+            </div>
+      
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row">
+                    <h8 class="col-12 col-md-12 col-lg-12">medium purple</h8>
+                </div>
+                <div class="row">
+                    <div class="box col-12 col-md-12 col-lg-12" id="gradient-4"></div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer class="nav-bar justify-content-evenly">
+        <p>Veronika Tryhubyak</p>
+        <a href="https://github.com/tryhubyak" target="_blank">Enlace a GitHub</a>
+        <p>Fecha de entrega: 25/01/24</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+@use '../base/colores' as c;
+@use '../base/fuentes' as f;
+@use '../base/mixins' as m;
+@use '../base/espaciados' as e;
+
+
+@include m.encabezados(30px);
+@include m.contenedoresImagenes;
+
+h1 {
+    color: c.$primario;
+    font-weight: bold;
+}
+
+h2 {
+    color: c.$primario;
+}
+
+.cabecera {
+    margin: e.$espaciado-cabecera;
+
+    @media(width <768px) {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.nav-bar {
+    align-items: baseline;
+    
+    @include m.flex-nav;
+
+    a {
+        text-decoration: none;
+
+        font: {
+            size: 15px;
+            family: f.$fuente-principal;
+        }
+
+        &:hover {
+            @include m.nav-hover;
+        }
+        
+    }
+
+    @media(width <768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    align-items: center;
+}

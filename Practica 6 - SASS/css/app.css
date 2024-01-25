@@ -1,0 +1,174 @@
+h1 {
+  font-size: 30px -10;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.cabecera img {
+  width: 10rem;
+  height: 7rem;
+}
+
+h1 {
+  color: #CD669A;
+  font-weight: bold;
+}
+
+h2 {
+  color: #CD669A;
+}
+
+.cabecera {
+  margin: 1rem;
+}
+@media (width < 768px) {
+  .cabecera {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.nav-bar {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FDE1EB;
+  padding: 1rem;
+}
+.nav-bar a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar a:hover {
+  background-color: white;
+  color: #CD669A;
+  font-weight: bold;
+}
+@media (width < 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+footer {
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+html {
+  padding: 0rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body #principal {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.box {
+  height: 3rem;
+  width: 100%;
+}
+
+.end {
+  text-align: end;
+}
+
+.titulos {
+  font-weight: bold;
+}
+
+#caja-1 {
+  background-color: firebrick;
+}
+
+#caja-2 {
+  background-color: darkseagreen;
+}
+
+#caja-3 {
+  background-color: royalblue;
+}
+
+#caja-4 {
+  background-color: mediumpurple;
+}
+
+#gradient-1 {
+  background: linear-gradient(to right, rgb(235, 159, 159) 0, rgb(169, 75, 75) 66.66%, firebrick 100%);
+}
+
+#gradient-2 {
+  background: linear-gradient(to right, rgb(59, 78, 59) 0, rgb(111, 142, 111) 66.66%, darkseagreen 100%);
+}
+
+#gradient-3 {
+  background: linear-gradient(to right, rgb(156, 180, 253) 0, rgb(116, 141, 214) 66.66%, royalblue 100%);
+}
+
+#gradient-4 {
+  background: linear-gradient(to right, rgb(79, 45, 145) 0, rgb(124, 92, 188) 66.66%, mediumpurple 100%);
+}
+
+.main {
+  margin: 0;
+}
+
+aside {
+  padding: 2rem;
+  border: 1px solid black;
+  text-align: justify;
+  display: flex;
+}
+
+.img-logo{
+  width: 10rem;
+}
+
+.facebook-box {
+  background-color: #72EBCF;
+  padding: 1.8rem;
+}
+
+.linkedin-box {
+  background-color: #96D8FF;
+  padding: 1.8rem;
+}
+
+.instagram-box {
+  background-color: #EB72E7;
+  padding: 1.8rem;
+}
+
+.youtube-box {
+  background-color: #FF7C7C;
+  padding: 1.8rem;
+}
+
+.twitter-box {
+  background-color: #C1C1C1;
+  padding: 1.8rem;
+}
+
+.pinterest-box {
+  background-color: #FFAC56;
+  padding: 1.8rem;
+}
+
