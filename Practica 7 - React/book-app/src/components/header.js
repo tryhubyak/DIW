@@ -1,16 +1,26 @@
 import logo from "../assets/img/logo.png";
-//src/components/Header.js
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 
 function Header() {
   return (
     <header>
-      <img className="imahes" src={logo} alt="logo.png" />
-      <h1>Book Library</h1>
+      <nav className="navbar navbar-dark bg-dark m-0 row">
+        <div className="navbar-brand m-2 d-flex align-items-center">
+          <img
+            className="images me-2"
+            src={logo}
+            alt="logo.png"
+            width="100"
+            height="100"
+          />
+          <h1 className="m-0">Library</h1>
+        </div>
+      </nav>
     </header>
-
   );
 }
 
 export default Header;
+
+//src/components/Header.js

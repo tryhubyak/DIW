@@ -5,7 +5,7 @@ function Book() {
     <div>
       <h2>Book</h2>
       {/* espacio de libro*/}
-    </div>
+    </div> 
   );
 }
 
