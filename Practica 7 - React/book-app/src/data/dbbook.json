@@ -1,0 +1,81 @@
+{
+  "books": [
+    {
+      "title": "Harry Potter And The Philosophers Stone",
+      "author": "J.K.Rowling",
+      "genre": "Fiction",
+      "year": 1997, 
+      "imageUrl": "https://m.media-amazon.com/images/I/81Fyh2mrw4L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "title": "Harry Potter And The Secret Chamber",
+      "author": "J.K.Rowling",
+      "genre": "Fiction",
+      "year": 1999,
+      "imageUrl": "https://pictures.abebooks.com/isbn/9780545582926-es.jpg"
+    },
+    {
+      "title": "Harry Potter And The Prisoner of Azcaban",
+      "author": "J.K.Rowling",
+      "genre": "Fiction",
+      "year": 2001,
+      "imageUrl": "https://m.media-amazon.com/images/I/81CSkmCO8PL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "title": "Harry Potter And The Goblet of Fire",
+      "author": "J.K.Rowling",
+      "genre": "Fiction",
+      "year": 2003,
+      "imageUrl": "https://m.media-amazon.com/images/I/81BownMW+fL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "title": "Harry Potter And Order of Phoenix",
+      "author": "J.K.Rowling",
+      "genre": "Fiction",
+      "year": 2005,
+      "imageUrl": "https://m.media-amazon.com/images/I/51iQwWIl+XL.jpg"
+    },
+    {
+      "title": "Harry Potter And The Half-blood Prince",
+      "author": "J.K.Rowling",
+      "genre": "Fiction",
+      "year": 2009,
+      "imageUrl": "https://m.media-amazon.com/images/I/51ibZl+yt8L.jpg"
+    },
+    {
+      "title": "Harry Potter And The Deathly Hallows ",
+      "author": "J.K.Rowling",
+      "genre": "Fiction",
+      "year": 2011,
+      "imageUrl": "https://m.media-amazon.com/images/I/81W7uynFyWL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "title": "Red Queen",
+      "author": "Victoria Aveyard",
+      "genre": "Dystopian",
+      "year": 2015,
+      "imageUrl": "https://m.media-amazon.com/images/I/71dST2LcHNL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "title": "Glass Sword",
+      "author": "Victoria Aveyard",
+      "genre": "Dystopian",
+      "year": 2017,
+      "imageUrl": "https://m.media-amazon.com/images/I/41c7UJRn9gL.jpg"
+    },
+    {
+      "title": "Kings Cage",
+      "author": "Victoria Aveyard",
+      "genre": "Dystopian",
+      "year": 2018,
+      "imageUrl": "https://m.media-amazon.com/images/I/91f1LUS-93L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "title": "War Storm",
+      "author": "Victoria Aveyard",
+      "genre": "Dystopian",
+      "year": 2020,
+      "imageUrl": "https://m.media-amazon.com/images/I/81JF1hfSm5L._AC_UF1000,1000_QL80_.jpg"
+    }
+  ]
+}
