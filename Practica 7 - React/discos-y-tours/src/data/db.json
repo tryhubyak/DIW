@@ -1,3 +1,127 @@
-[
-    
-]
+{
+  "albums": [
+    {
+      "name": "Hope",
+      "year": 2023,
+      "songs": [
+        "Mistake",
+        "Hope",
+        "Happy",
+        "Mama",
+        "Bullet",
+        "Motto",
+        "Gone",
+        "Carefull"
+      ],
+      "lenght": "49min. 31sec."
+    },
+    {
+      "name": "Clouds",
+      "year": 2021,
+      "songs": [
+        "Clouds",
+        "Story",
+        "Just like you",
+        "Prideful",
+        "Lost",
+        "Drifting",
+        "Trust"
+      ],
+      "lenght": "42min. 26sec."
+    },
+    {
+      "name": "The Search",
+      "year": 2019,
+      "songs": [
+        "The Search",
+        "Hate myself",
+        "Change",
+        "Nate",
+        "Time",
+        "When I grow Up",
+        "Let me go"
+      ],
+      "lenght": "1hour. 16min."
+    },
+    {
+      "name": "Perception",
+      "year": 2017,
+      "songs": [
+        "Dreams",
+        "Let you Down",
+        "If you want love",
+        "Rember this",
+        "Lie",
+        "3 AM",
+        "Outro"
+      ],
+      "lenght": "1hour. 1min."
+    },
+    {
+      "name": "Therapy Session",
+      "year": 2016,
+      "songs": [
+        "Therapy Session",
+        "I just wanna know",
+        "Breathe",
+        "Real",
+        "Oh lord",
+        "I can feel it",
+        "Lots in the moment"
+      ],
+      "lenght": "58min. 17sec."
+    },
+    {
+      "name": "Mansion",
+      "year": 2015,
+      "songs": [
+        "Intro",
+        "All I have",
+        "Wait",
+        "Wake up",
+        "Motivated",
+        "Paralyzed",
+        "Notepad"
+      ],
+      "lenght": "48min. 11sec."
+    }
+  ],
+  "tours": [
+    {
+      "date": "February 11",
+      "vanue": "SPARK ARENA",
+      "city": "Auckland",
+      "tickets": false
+    },
+    {
+      "date": "May 8",
+      "vanue": "FISERV FORUM",
+      "city": "Milwaukee, WI",
+      "tickets": false
+    },
+    {
+      "date": "May 10",
+      "vanue": "T-MOBILE CENTER",
+      "city": "Kansas City, MO",
+      "tickets": true
+    },
+    {
+      "date": "May 11",
+      "vanue": "GAINBRIDGE FIELDHOUSE",
+      "city": "Indianapolis, IN",
+      "tickets": true
+    },
+    {
+      "date": "May 12",
+      "vanue": "CHAIFETZ ARENA",
+      "city": "St Louis, MO",
+      "tickets": true
+    },
+    {
+      "date": "May 14",
+      "vanue": "LITTLE CAESARS ARENA",
+      "city": "Detroit, MI",
+      "tickets": false
+    }
+  ]
+}
