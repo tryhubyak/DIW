@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/css/Book.css";
 import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Boton from "./Boton";
 
 export default function Book() {
   const [books, setbooks] = useState([]);
@@ -27,6 +28,11 @@ export default function Book() {
               <p className="book-genre">Genre: {book.genre}</p>
               <p className="book-year">Year: {book.year}</p>
             </div>
+            <Boton
+              name={book.available ? "Reservar" : "Avisar"}
+              mensaje={book.available ? "Reservando libro..." : "Avisando sobre disponibilidad..."}
+              estilos={{ backgroundColor: book.available ? "blue" : "gray" }}
+            />
           </div>
         ))}
       </div>
