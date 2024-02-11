@@ -14,6 +14,10 @@ export default function Main() {
           <h1 className="bannertext">NF | HOPE TOUR</h1>
         </div>
         <Tours></Tours>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <Albums></Albums>
       </div>
     </>

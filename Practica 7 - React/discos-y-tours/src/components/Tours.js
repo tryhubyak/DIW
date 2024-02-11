@@ -7,7 +7,7 @@ import "../assets/css/Tour.css";
 export default function Tours() {
   const [tours, settours] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3050/tours")
+    fetch("http://localhost:3060/tours")
       .then((response) => {
         return response.json();
       })
