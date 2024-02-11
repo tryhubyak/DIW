@@ -1,0 +1,19 @@
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.bannertext {
+  margin: 0;
+  font-size: 120px;
+}
+
+.imagenBanner {
+    position: relative; 
+    display: inline-block;
+}
+
+ 

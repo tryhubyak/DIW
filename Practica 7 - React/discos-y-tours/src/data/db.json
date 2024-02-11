@@ -88,18 +88,6 @@
   ],
   "tours": [
     {
-      "date": "February 11",
-      "vanue": "SPARK ARENA",
-      "city": "Auckland",
-      "tickets": false
-    },
-    {
-      "date": "May 8",
-      "vanue": "FISERV FORUM",
-      "city": "Milwaukee, WI",
-      "tickets": false
-    },
-    {
       "date": "May 10",
       "vanue": "T-MOBILE CENTER",
       "city": "Kansas City, MO",
@@ -109,7 +97,7 @@
       "date": "May 11",
       "vanue": "GAINBRIDGE FIELDHOUSE",
       "city": "Indianapolis, IN",
-      "tickets": true
+      "tickets": false
     },
     {
       "date": "May 12",
@@ -122,6 +110,18 @@
       "vanue": "LITTLE CAESARS ARENA",
       "city": "Detroit, MI",
       "tickets": false
+    },
+    {
+      "date": "May 15",
+      "vanue": "PPG PAINTS ARENA",
+      "city": "Pittsburgh, PA",
+      "tickets": false
+    },
+    {
+      "date": "May 16",
+      "vanue": "MOHEGAN SUN ARENA",
+      "city": "Uncasville, CT",
+      "tickets": true
     }
   ]
 }

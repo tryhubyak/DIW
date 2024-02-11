@@ -1,0 +1,16 @@
+.tour {
+  text-align: center;
+}
+
+.tour-date {
+  font-size: 20px;
+}
+
+.tour-vanue {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.tour-city {
+  font-size: 20px;
+}
